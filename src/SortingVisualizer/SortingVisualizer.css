@@ -1,0 +1,15 @@
+.display-array
+{
+    height: 77vh;
+    display: flex;
+    padding: 0 50px;
+    justify-content: center;
+}
+
+.array-element {
+    width: 6.5px;
+    display:inline-block;
+    margin:3px;
+    background-color:"#3281a8";
+    margin-top: auto;
+}

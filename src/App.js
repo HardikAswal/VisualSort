@@ -1,24 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
+// import logo from './logo.svg';
 import './App.css';
+import Header from './Header/Header';
+import Banner from './Header/Banner';
+import SortingVisualizer from './SortingVisualizer/SortingVisualizer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* {setTimeout(()=>{return <Banner></Banner>},5000)} */}
+      {/* <Header></Header> */}
+     <SortingVisualizer></SortingVisualizer>
     </div>
   );
 }
